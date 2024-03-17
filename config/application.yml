@@ -1,0 +1,3 @@
+# SUPABASE_URL='https://ooqsplipxzaessliovfu.supabase.co'
+# SUPABASE_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9vcXNwbGlweHphZXNzbGlvdmZ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDg5ODIwMDQsImV4cCI6MjAyNDU1ODAwNH0.DLlLRBlq7NHvBUp5k__HYknQxysmtank6u1BNA7TUZ4'
+POSTGRES_URL: 'postgresql://postgres.ooqsplipxzaessliovfu:BYAdLFCE#eD&7$@aws-0-us-west-1.pooler.supabase.com:5432/postgres'
