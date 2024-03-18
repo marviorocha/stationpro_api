@@ -4,18 +4,18 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  url: <%= ENV['POSTGRES_URL'] %>
+
 development:
   <<: *default
   database: api_stationpro_development
-  url: <%= ENV['POSTGRES_URL'] %>
+  
  
 test:
   <<: *default
   database: api_stationpro_test
-  url: <%= ENV['POSTGRES_URL'] %>
+ 
  
 production:
   <<: *default
   database: api_stationpro_production
-  url: <%= ENV['POSTGRES_URL'] %>
+   
